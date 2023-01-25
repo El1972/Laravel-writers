@@ -1,0 +1,93 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+/* End Of General Styles */
+
+
+/* Header */
+
+.header-wrapper {
+    float: right;
+    width: 80%;
+}
+
+.header-container {
+    min-height: 10vh;
+}
+
+.links {
+    float: right;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+ul .links {
+    list-style-type: none;
+    text-align: center;
+    width: 15%;
+}
+
+ul .links a {
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.image-itself {
+    background: url(/frontend/images/writer-home.jpg) center;
+    background-size: cover;
+    height: 400px;
+}
+
+/* End Of Header */
+
+
+/* Home */
+
+.home-master-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.home-main-container {
+    height: auto;
+    margin: 40px 40px 0px;
+}
+
+.home-sidebar {
+    float: left;
+    width: 20%;
+}
+
+.home-sidebar-properties {
+    height: 100vh;
+    background-color: #DBD5CD;
+}
+
+.home-content {
+    float: left;
+    width: 80%;
+}
+
+.home-content-properties {
+    height: 100vh;
+    background-color: #faf7f0;
+}
+
+/* End Of Home */
